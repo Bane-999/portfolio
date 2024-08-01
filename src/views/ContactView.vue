@@ -177,5 +177,9 @@
       left: 19px;
       min-width: 100%;
     }
+
+    .flash {
+      bottom: 50px;
+    }
   }
 </style>
