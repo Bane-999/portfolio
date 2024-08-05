@@ -38,6 +38,17 @@
         </svg>
       </div>
     </div>
+    <div class="contact-container">
+     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 128 128" stroke-width="5.5" stroke="currentColor" class="size-6">
+        <path d="M116 3H12a8.91 8.91 0 00-9 8.8v104.42a8.91 8.91 0 009 8.78h104a8.93 8.93 0 009-8.81V11.77A8.93 8.93 0 00116 3zM39.17 107H21.06V48.73h18.11zm-9-66.21a10.5 10.5 0 1110.49-10.5 10.5 10.5 0 01-10.54 10.48zM107 107H88.89V78.65c0-6.75-.12-15.44-9.41-15.44s-10.87 7.36-10.87 15V107H50.53V48.73h17.36v8h.24c2.42-4.58 8.32-9.41 17.13-9.41C103.6 47.28 107 59.35 107 75z"></path>
+      </svg>
+      <p>LinkedIn Profile</p>
+      <a href="https://www.linkedin.com/in/branislav-radomirov-297937378/" target="_blank" rel="noopener">
+        <svg class="external-link-icon" fill="none" height="24" viewBox="0 0 24 24" stroke="currentColor" width="24" xmlns="http://www.w3.org/2000/svg">
+          <path d="M10 6H6C4.89543 6 4 6.89543 4 8V18C4 19.1046 4.89543 20 6 20H16C17.1046 20 18 19.1046 18 18V14M14 4H20M20 4V10M20 4L10 14" stroke="#8f9eb9" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+        </svg>
+      </a>
+    </div>
     <!-- Flash Message -->
     <div v-if="showFlash" class="flash">
       Copied to clipboard!
@@ -78,6 +89,9 @@
     display: flex;
     align-items: center;
     padding: 16px;
+    margin-top: 10px;
+    width: 336px;
+    justify-content: center;
   }
 
   .contact-container p {
@@ -88,6 +102,14 @@
 
   .contact-container svg {
    height: 20px;
+   color: #d2d1dc;
+  }
+
+  .contact-container svg.external-link-icon {
+    position: relative;
+    top: 3px;
+    left: 5px;
+    color: #d2d1dc;
   }
 
   @keyframes loadText {
