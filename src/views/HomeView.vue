@@ -69,11 +69,13 @@
   .main {
     display: flex;
     position: relative;
-    left: 300px;
+    margin-left: 255px;
     top: 100px;
     padding: 1.5rem;
     flex-direction: row;
     align-items: center;
+    width: -webkit-fill-available;
+    justify-content: center;
   }
 
   header {
@@ -233,6 +235,7 @@
     .main {
       left: 0;
       top: 26px;
+      margin-left: 0px;
     }
 
     header .burger {

@@ -63,6 +63,7 @@
     opacity: 0;
     animation: load-credits 0.7s ease-out forwards;
     line-height: 17px;
+    z-index: -1;
   }
 
   @keyframes load-credits {
@@ -124,12 +125,13 @@
     position: relative;
     color: #999faf;
     text-decoration: none;
-    font-family: SYSTEM-UI;
+    font-family: 'Ubuntu';
     font-weight: 600;
     padding: 11px;
     margin-top: 15px;
     margin-left: 15px;
     width: 222px;
+    height: 40px;
     outline: transparent;
     border-radius: 10px;
     background-color: transparent;
@@ -154,50 +156,38 @@
   }
 
   .circle {
-    position: relative;
+    position: absolute;
+    left: 86%;
+    transform: translateY(-50%);
     width: 10px;
-    margin-left: 207px;
     height: 10px;
-    margin-top: -305px;
     background: #00d7f5;
     border-radius: 50%;
     transition: top 0.3s ease;
-    top: var(--circle-top);
-    right: 0px;
+    top: calc(var(--active-index, 0) * (55px) + 35px); /* 11px is half link height */
     opacity: 0;
     animation: item-load 0.4s ease-out forwards;
-    animation-delay: calc(var(--order) * 200ms);
+    animation-delay: calc((var(--active-index) + 1) * 200ms);
   }
 
-  /* Update the top offset based on which item is active */
+  /* Update index per active item */
   .sidebar nav:has(a:nth-child(1).active) {
-    --circle-top: calc(0 * (56px));
-    --order: 1
+    --active-index: 0;
   }
-
   .sidebar nav:has(a:nth-child(2).active) {
-    --circle-top: calc(1 * (56px));
-    --order: 2
+    --active-index: 1;
   }
-
   .sidebar nav:has(a:nth-child(3).active) {
-    --circle-top: calc(2 * (56px));
-    --order: 3
+    --active-index: 2;
   }
-
   .sidebar nav:has(a:nth-child(4).active) {
-    --circle-top: calc(3 * (56px));
-    --order: 4
+    --active-index: 3;
   }
-
   .sidebar nav:has(a:nth-child(5).active) {
-    --circle-top: calc(4 * (56px));
-    --order: 5
+    --active-index: 4;
   }
-
   .sidebar nav:has(a:nth-child(6).active) {
-    --circle-top: calc(5 * (56px));
-    --order: 6
+    --active-index: 5;
   }
 
   @media (max-width: 768px) {
