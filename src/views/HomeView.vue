@@ -33,7 +33,11 @@
         <div style="--order: 3" class="code-animation indent-2">&lt;/body&gt;</div>
       <div style="--order: 3" class="code-animation indent-1">&lt;/html&gt;</div>
     </div>
-    <DotLottieVue class="computer" autoplay loop src="/portfolio/animations/Coding-Slide.lottie" />
+    <DotLottieVue
+      class="computer"
+      autoplay
+      loop src="/portfolio/animations/Coding-Slide.lottie"
+    />
   </div>
 </template>
 
@@ -74,7 +78,6 @@
     padding: 1.5rem;
     flex-direction: row;
     align-items: center;
-    width: -webkit-fill-available;
     justify-content: center;
   }
 
