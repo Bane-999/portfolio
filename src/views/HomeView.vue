@@ -50,11 +50,12 @@
   }
 
   .computer {
-    height: 500px;
-    width: 500px;
+    width: clamp(330px, 28vw, 520px);
+    height: auto;
+    aspect-ratio: 1;
     z-index: 9999;
     opacity: 0;
-    margin-left: 40px;
+    justify-self: start;
     animation: load-computer 0.8s ease-out forwards;
     animation-delay: 1s;
   }
@@ -71,12 +72,15 @@
   }
 
   .main {
-    display: flex;
+    --sidebar-width: 255px;
+    display: grid;
+    grid-template-columns: minmax(400px, max-content) minmax(300px, clamp(330px, 28vw, 520px));
     position: relative;
-    margin-left: 255px;
-    top: 100px;
-    padding: 1.5rem;
-    flex-direction: row;
+    width: calc(100vw - var(--sidebar-width));
+    min-height: 100svh;
+    margin-left: var(--sidebar-width);
+    padding: clamp(2rem, 3vw, 4rem);
+    gap: clamp(2rem, 4vw, 5rem);
     align-items: center;
     justify-content: center;
   }
@@ -116,8 +120,8 @@
     font-family: 'Coolvetica', sans-serif;
     font-weight: 400;
     color: white;
-    font-size: 6.6rem;
-    line-height: 92px;
+    font-size: clamp(4.8rem, 6.4vw, 6.8rem);
+    line-height: 0.88;
     margin-top: 15px;
     margin-bottom: 15px;
   }
@@ -128,8 +132,9 @@
     overflow-wrap: normal;
     font-family: monospace;
     position: relative;
-    font-size: 1.5rem;
+    font-size: clamp(1.08rem, 1.1vw, 1.45rem);
     margin-top: 35px;
+    justify-self: end;
   }
 
   .code-animation {
@@ -234,11 +239,31 @@
   }
 
 
+  @media (min-width: 1280px) {
+    .code {
+      margin-top: 0;
+    }
+  }
+
+  @media (max-width: 1100px) {
+    .main {
+      grid-template-columns: minmax(390px, max-content);
+    }
+
+    .computer {
+      display: none;
+    }
+  }
+
   @media (max-width: 768px) {
     .main {
-      left: 0;
+      --sidebar-width: 0px;
+      min-height: auto;
       top: 26px;
-      margin-left: 0px;
+      width: 100vw;
+      margin-left: 0;
+      padding: 1.5rem;
+      justify-content: start;
     }
 
     header .burger {
@@ -256,6 +281,7 @@
     .code {
       font-size: 0.68rem;
       margin-top: 67px;
+      justify-self: start;
     }
 
     .line-1 {
@@ -274,10 +300,6 @@
       top: 41px;
       left: 47px;
       height: 129px;
-    }
-
-    .computer {
-      display: none;
     }
 
     .btn {
