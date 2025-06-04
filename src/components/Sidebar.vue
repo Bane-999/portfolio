@@ -42,7 +42,7 @@
     <footer class="footer">
       <div>Built with Vue</div>
       <div>Designed in Figma</div>
-      <div>© 2025 Branislav</div>
+      <div>© 2026 Branislav</div>
     </footer>
   </aside>
 </template>

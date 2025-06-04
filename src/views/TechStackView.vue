@@ -25,15 +25,20 @@
   import GitlabIcon from '../components/icons/GitlabIcon.vue';
   import FigmaIcon from '../components/icons/FigmaIcon.vue';
   import IllustratorIcon from '../components/icons/IllustratorIcon.vue';
-  import PhotoshopIcon from '../components/icons/PhotoshopIcon.vue';
-  import AftereffectsIcon from '../components/icons/AftereffectsIcon.vue';
   import UbuntuIcon from '../components/icons/UbuntuIcon.vue';
   import VscodeIcon from '../components/icons/VscodeIcon.vue';
   import DockerIcon from '../components/icons/DockerIcon.vue';
   import CapacitorIcon from '../components/icons/CapacitorIcon.vue';
+  import ReactIcon from '../components/icons/ReactIcon.vue';
+  import TailwindIcon from '../components/icons/TailwindIcon.vue';
+  import CypressIcon from '../components/icons/CypressIcon.vue';
+  import ElectronIcon from '../components/icons/ElectronIcon.vue';
+  import ReactNativeIcon from '../components/icons/ReactIcon.vue';
 
   const techs = ref([
     // Frontend
+    { name: 'React', category: 'Frontend', info: 'Helps build modern, interactive web apps.', icon: markRaw(ReactIcon) },
+    { name: 'Tailwind CSS', category: 'Frontend', info: 'Speeds up styling with reusable utility classes.', icon: markRaw(TailwindIcon) },
     { name: 'JavaScript', category: 'Frontend', info: 'Makes websites interactive.', icon: markRaw(JsIcon) },
     { name: 'TypeScript', category: 'Frontend', info: 'Like JavaScript, but with extra safety features.', icon: markRaw(TsIcon) },
     { name: 'HTML', category: 'Frontend', info: 'Builds the structure of web pages.', icon: markRaw(HtmlIcon) },
@@ -51,6 +56,7 @@
 
     // Testing / QA
     { name: 'RSpec', category: 'Testing / QA', info: 'Used to test if Ruby code works correctly.', icon: markRaw(RspecIcon) },
+    { name: 'Cypress', category: 'Testing / QA', info: 'Tests user flows in web applications automatically.', icon: markRaw(CypressIcon) },
 
      // DevOps
     { name: 'Docker', category: 'DevOps', info: 'Packs apps so they run the same everywhere.', icon: markRaw(DockerIcon) },
@@ -60,12 +66,12 @@
     { name: 'GitLab', category: 'Tools', info: 'Platform for hosting repositories, CI/CD pipelines, and team collaboration.', icon: markRaw(GitlabIcon) },
     { name: 'Figma', category: 'Tools', info: 'Used for designing app interfaces.', icon: markRaw(FigmaIcon) },
     { name: 'Adobe Illustrator', category: 'Tools', info: 'Creates logos and vector graphics.', icon: markRaw(IllustratorIcon) },
-    { name: 'Adobe Photoshop', category: 'Tools', info: 'Edits images and designs.', icon: markRaw(PhotoshopIcon) },
-    { name: 'Adobe After Effects', category: 'Tools', info: 'Makes animations and visual effects.', icon: markRaw(AftereffectsIcon) },
     { name: 'Ubuntu Linux', category: 'Tools', info: 'My everyday development system.', icon: markRaw(UbuntuIcon) },
     { name: 'VS Code', category: 'Tools', info: 'My main code editor.', icon: markRaw(VscodeIcon) },
+    { name: 'Electron', category: 'Tools', info: 'Turns web apps into desktop applications.', icon: markRaw(ElectronIcon) },
 
     // Mobile
+    { name: 'React Native', category: 'Mobile', info: 'Lets web developers build mobile apps with React.', icon: markRaw(ReactNativeIcon) },
     { name: 'CapacitorJS', category: 'Mobile', info: 'Lets web apps run as mobile apps.', icon: markRaw(CapacitorIcon) },
   ])
 
@@ -146,15 +152,15 @@
         </svg>
       </div>
       <div :style="`--order: ${Math.pow(1, 1.5)}`">
-        <h2>2.5+</h2>
+        <h2>4+</h2>
         <span>Years Experience</span>
         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 fticon">
           <path stroke-linecap="round" stroke-linejoin="round" d="M11.48 3.499a.562.562 0 0 1 1.04 0l2.125 5.111a.563.563 0 0 0 .475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 0 0-.182.557l1.285 5.385a.562.562 0 0 1-.84.61l-4.725-2.885a.562.562 0 0 0-.586 0L6.982 20.54a.562.562 0 0 1-.84-.61l1.285-5.386a.562.562 0 0 0-.182-.557l-4.204-3.602a.562.562 0 0 1 .321-.988l5.518-.442a.563.563 0 0 0 .475-.345L11.48 3.5Z" />
         </svg>
       </div>
       <div :style="`--order: ${Math.pow(2, 1.5)}`">
-        <h2>160+</h2>
-        <span>Issues Completed</span>
+        <h2>300+</h2>
+        <span>Closed Merge Requests</span>
         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 fticon">
           <path stroke-linecap="round" stroke-linejoin="round" d="M14.25 9.75 16.5 12l-2.25 2.25m-4.5 0L7.5 12l2.25-2.25M6 20.25h12A2.25 2.25 0 0 0 20.25 18V6A2.25 2.25 0 0 0 18 3.75H6A2.25 2.25 0 0 0 3.75 6v12A2.25 2.25 0 0 0 6 20.25Z" />
         </svg>

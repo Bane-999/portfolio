@@ -18,25 +18,24 @@
   <div class="about-main-container">
     <div class="title" style="--order: 0">
       <h1>About <span class="highlight">Me</span></h1>
+      <p class="intro">
+        I’ve spent <strong style="font-weight: 900;">4+ years</strong> working across financial, accounting, real-time, and mobile systems, usually stepping into codebases that already have history, decisions, and shortcuts baked in. Most of the time, the work isn’t about starting fresh, but about understanding what already exists and slowly shaping it without breaking what people rely on.
+
+        <br><br>
+
+        What I’ve become most comfortable with is following a feature all the way through - from the initial idea, to how it gets translated in the backend, how it’s stored, and finally how it behaves in the UI. It’s usually in those transitions where things start to feel slightly off, and where most of the real work actually happens.
+
+        <br><br>
+
+        I tend to take ownership of features end to end, not because it sounds good, but because it’s the only way to really understand how everything fits together. Working in legacy systems makes it very clear that no change is ever truly local. Even a small adjustment can ripple into places you weren’t thinking about at first. Because of that, I value clear specifications and good test coverage - they provide the confidence needed to make changes without constantly wondering what might break somewhere else.
+
+        <br><br>
+
+        Most of my collaboration happens through code reviews and planning things out before jumping into implementation. Not as a rigid process, but as a way to make sure everyone has the same mental model of what we’re actually building. That shared understanding is usually what keeps the system from slowly drifting in different directions over time.
+      </p>
     </div>
 
     <div class="about-items">
-      <div class="about-item" style="--order: 1">
-        <p>
-          I am experienced full stack web developer with <strong>2.5 years</strong> of hands-on work on complex accounting and financial platforms.
-          Strong in Ruby on Rails and PostgreSQL, with a focus on writing clean, tested, and maintainable code.
-          Proficient in both backend and frontend development, including legacy systems and modern single-page applications.
-          Skilled in breaking down complex features, planning development tasks, and delivering reliable solutions in fast-paced environments.
-          Also experienced in UI/UX design tools (Figma). Collaborative, detail-oriented, and accustomed to structured review and planning processes.
-        </p>
-        <div class="labels">
-          <span class="label" style="--order: 2">Ruby on Rails</span>
-          <span class="label" style="--order: 3">PostgreSQL</span>
-          <span class="label" style="--order: 4">JavaScript / TypeScript</span>
-          <span class="label" style="--order: 5">UI/UX Design</span>
-          <span class="label" style="--order: 6">SPA (Single-Page Applications)</span>
-        </div>
-      </div>
       <div class="about-info" style="--order: 7">
         <h2>
           <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
@@ -44,6 +43,125 @@
           </svg>
           Professional Journey
         </h2>
+        <div class="about-table">
+          <div class="about-template">
+            <div class="about-header">
+              <h3>Junior Frontend Developer</h3>
+              <span>
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="pin-icon">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M15 10.5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1 1 15 0Z" />
+                </svg>
+                SEMSIT
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="calendar-icon">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 0 1 2.25-2.25h13.5A2.25 2.25 0 0 1 21 7.5v11.25m-18 0A2.25 2.25 0 0 0 5.25 21h13.5A2.25 2.25 0 0 0 21 18.75m-18 0v-7.5A2.25 2.25 0 0 1 5.25 9h13.5A2.25 2.25 0 0 1 21 11.25v7.5" />
+                </svg>
+                4 months (Apr 2021 - Jul 2021) • Netherlands • Contract (Remote)
+              </span>
+            </div>
+          </div>
+          <div class="about-body">
+            <div class="about-projects">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                <path stroke-linecap="round" stroke-linejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />
+              </svg>
+              <h3>Key Projects</h3>
+            </div>
+            <div class="projects">
+              <div class="project" style="--order: 8">
+                <div>
+                  <h4>Logistics Management App</h4>
+                  <a href="https://semsit.nl/en/projects/mobile-app-logistics" target="_blank" rel="noopener">
+                    <svg class="external-link-icon" fill="none" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M10 6H6C4.89543 6 4 6.89543 4 8V18C4 19.1046 4.89543 20 6 20H16C17.1046 20 18 19.1046 18 18V14M14 4H20M20 4V10M20 4L10 14" stroke="#8f9eb9" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+                    </svg>
+                  </a>
+                </div>
+                <p>Built React Native mobile app for real-time delivery tracking, route optimization, and driver communication.</p>
+                <footer class="labels">
+                  <span class="label">React Native</span>
+                  <span class="label">Node.js</span>
+                  <span class="label">JavaScript</span>
+                  <span class="label">Google Maps API</span>
+                  <span class="label">MongoDB</span>
+                  <span class="label">Firebase</span>
+                </footer>
+              </div>
+            </div>
+            <div class="about-respons">
+              <div class="about-projects">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />
+                </svg>
+                <h3>Core Responsibilities</h3>
+              </div>
+            </div>
+            <ul class="respons">
+              <li class="hidden" style="--order: 0"> Built and maintained frontend features for a logistics platform used by drivers and dispatchers, where information needed to stay clear and up to date while work was happening in real time. </li>
+              <li class="hidden" style="--order: 1"> Worked closely with existing APIs and product requirements, gaining an early understanding of how backend behavior, data flow, and user experience need to stay aligned for a system to feel reliable. </li>
+            </ul>
+          </div>
+        </div>
+        <div class="about-table">
+          <div class="about-template">
+            <div class="about-header">
+              <h3>Backend Developer</h3>
+              <span>
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="pin-icon">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M15 10.5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1 1 15 0Z" />
+                </svg>
+                PRIICER
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="calendar-icon">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 0 1 2.25-2.25h13.5A2.25 2.25 0 0 1 21 7.5v11.25m-18 0A2.25 2.25 0 0 0 5.25 21h13.5A2.25 2.25 0 0 0 21 18.75m-18 0v-7.5A2.25 2.25 0 0 1 5.25 9h13.5A2.25 2.25 0 0 1 21 11.25v7.5" />
+                </svg>
+                7 months (Aug 2021 - Feb 2022) • Germany • Contract (Remote)
+              </span>
+            </div>
+          </div>
+          <div class="about-body">
+            <div class="about-projects">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                <path stroke-linecap="round" stroke-linejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />
+              </svg>
+              <h3>Key Projects</h3>
+            </div>
+            <div class="projects">
+              <div class="project" style="--order: 8">
+                <div>
+                  <h4>Priicer</h4>
+                  <a href="https://priicer.com/" target="_blank" rel="noopener">
+                    <svg class="external-link-icon" fill="none" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M10 6H6C4.89543 6 4 6.89543 4 8V18C4 19.1046 4.89543 20 6 20H16C17.1046 20 18 19.1046 18 18V14M14 4H20M20 4V10M20 4L10 14" stroke="#8f9eb9" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+                    </svg>
+                  </a>
+                </div>
+                <p>Developed Rails backend features for a real-time electricity pricing platform.</p>
+                <img :src="'/portfolio/priicer.png'">
+                <footer class="labels">
+                  <span class="label">Ruby on Rails</span>
+                  <span class="label">PostgreSQL</span>
+                  <span class="label">REST APIs</span>
+                  <span class="label">Redis</span>
+                </footer>
+              </div>
+            </div>
+            <div class="about-respons">
+              <div class="about-projects">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />
+                </svg>
+                <h3>Core Responsibilities</h3>
+              </div>
+            </div>
+            <ul class="respons">
+              <li class="hidden" style="--order: 0"> Built and maintained backend features in Ruby on Rails for a real-time electricity pricing platform.</li>
+              <li class="hidden" style="--order: 1"> Worked with electricity tariff data pipelines, processing real-time and day-ahead price feeds as they arrived from external sources.</li>
+              <li class="hidden" style="--order: 2"> Worked on database design and queries around price history, device control, and bid tracking, focusing on keeping past behavior understandable when you need to trace it.</li>
+              <li class="hidden" style="--order: 3"> Built REST APIs connecting frontend clients with backend pricing and device control logic.</li>
+            </ul>
+          </div>
+        </div>
         <div class="about-table">
           <div class="about-template">
             <div class="about-header">
@@ -57,7 +175,7 @@
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="calendar-icon">
                   <path stroke-linecap="round" stroke-linejoin="round" d="M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 0 1 2.25-2.25h13.5A2.25 2.25 0 0 1 21 7.5v11.25m-18 0A2.25 2.25 0 0 0 5.25 21h13.5A2.25 2.25 0 0 0 21 18.75m-18 0v-7.5A2.25 2.25 0 0 1 5.25 9h13.5A2.25 2.25 0 0 1 21 11.25v7.5" />
                 </svg>
-                2.5 years • Full-time (on-site, 08:00-16:00)
+                3 years (Jun 2022 - Jun 2025) • Full-time (On-Site)
               </span>
             </div>
           </div>
@@ -78,7 +196,8 @@
                     </svg>
                   </a>
                 </div>
-                <p>Core accounting application for bookkeeping, payroll processing, and financial administration. Integrated with banking systems via ZTL API.</p>
+                <p>The company’s core application for accounting, bookkeeping, payroll processing, and financial administration, integrated with external banking APIs to retrieve business and transaction data.</p>
+                <img :src="'/portfolio/fb.png'">
                 <footer class="labels">
                   <span class="label">Ruby on Rails</span>
                   <span class="label">PostgreSQL</span>
@@ -94,7 +213,8 @@
                   </svg>
                   </a>
                 </div>
-                <p>Modern SPA for invoice and paycheck generation, fully integrated with FakturaBank through shared database architecture.</p>
+                <p>A modern Single Page Application (SPA) used to generate and send invoices and paychecks, fully integrated with fakturaBank via a shared database.</p>
+                <img :src="'/portfolio/snotr.jpeg'">
                 <footer class="labels">
                   <span class="label">SPA</span>
                   <span class="label">GraphQL</span>
@@ -117,9 +237,71 @@
               <li class="hidden" style="--order: 2"> Optimized SQL queries and implemented efficient database solutions </li>
               <li class="hidden" style="--order: 3"> Implemented background job processing with Sidekiq and Redis </li>
               <li class="hidden" style="--order: 4"> Added real-time functionality via WebSockets for chat and video support </li>
-              <li class="hidden" style="--order: 5"> Maintained comprehensive test coverage using RSpec and Capybara </li>
+              <li class="hidden" style="--order: 5"> Maintained comprehensive test coverage using RSpec and Cypress </li>
               <li class="hidden" style="--order: 6"> Refactored legacy code while developing new features </li>
               <li class="hidden" style="--order: 7"> Followed strict planning and multi-phase code review processes </li>
+            </ul>
+          </div>
+        </div>
+        <div class="about-table">
+          <div class="about-template">
+            <div class="about-header">
+              <h3>Full Stack Web Developer</h3>
+              <span>
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="pin-icon">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M15 10.5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1 1 15 0Z" />
+                </svg>
+                Write.Set.Done!
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="calendar-icon">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 0 1 2.25-2.25h13.5A2.25 2.25 0 0 1 21 7.5v11.25m-18 0A2.25 2.25 0 0 0 5.25 21h13.5A2.25 2.25 0 0 0 21 18.75m-18 0v-7.5A2.25 2.25 0 0 1 5.25 9h13.5A2.25 2.25 0 0 1 21 11.25v7.5" />
+                </svg>
+                9 months (Aug 2025 - Present) • Novi Sad • Self-employed (Remote)
+              </span>
+            </div>
+          </div>
+          <div class="about-body">
+            <div class="about-projects">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                <path stroke-linecap="round" stroke-linejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />
+              </svg>
+              <h3>Key Projects</h3>
+            </div>
+            <div class="projects">
+              <div class="project" style="--order: 8">
+                <div>
+                  <h4>Write.Set.Done!</h4>
+                  <a href="https://www.fakturabank.no/" target="_blank" rel="noopener">
+                    <svg class="external-link-icon" fill="none" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M10 6H6C4.89543 6 4 6.89543 4 8V18C4 19.1046 4.89543 20 6 20H16C17.1046 20 18 19.1046 18 18V14M14 4H20M20 4V10M20 4L10 14" stroke="#8f9eb9" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+                    </svg>
+                  </a>
+                </div>
+                <p>A productivity system built to close the gap between planning and actually doing.</p>
+                <img :src="'/portfolio/wsd.png'">
+                <footer class="labels">
+                  <span class="label">React</span>
+                  <span class="label">TypeScript</span>
+                  <span class="label">Zustand</span>
+                  <span class="label">Tan Stack Query</span>
+                  <span class="label">IndexedDB</span>
+                  <span class="label">SPA</span>
+                </footer>
+              </div>
+            </div>
+            <div class="about-respons">
+              <div class="about-projects">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />
+                </svg>
+                <h3>Core Responsibilities</h3>
+              </div>
+            </div>
+            <ul class="respons">
+              <li class="hidden" style="--order: 0"> Building personal SaaS and mobile apps around productivity tools and everyday workflows.</li>
+              <li class="hidden" style="--order: 1"> Working across full-stack systems using Ruby on Rails, TypeScript, React, and Android.</li>
+              <li class="hidden" style="--order: 2"> Designing offline-first behavior, UI structure, and performance considerations where they matter in practice.</li>
+              <li class="hidden" style="--order: 3"> Experimenting with AI-assisted development and how it fits into day-to-day product building.</li>
             </ul>
           </div>
         </div>
@@ -230,6 +412,7 @@
     justify-content: flex-start;
     color: aliceblue;
     width: calc(99vw - 255px);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
   }
 
   .title {
@@ -244,10 +427,17 @@
   }
 
   .title h1 {
-    font-family: system-ui;
     font-weight: 800;
-    font-size: 4rem;
+    font-size: clamp(3rem, 6vw, 4.5rem);
     text-align: center;
+  }
+
+  .intro {
+    color: #c9d4e3;
+    font-size: clamp(1.1rem, 2vw, 1.35rem);
+    line-height: 1.65;
+    max-width: 820px;
+    margin-top: 18px;
   }
 
   .about-items {
@@ -258,7 +448,15 @@
     top: 70px;
     flex-direction: column;
     gap: 50px;
-    max-width: 1000px;
+    max-width: 820px;
+  }
+
+  .highlight {
+    display: inline;
+    background: linear-gradient(90deg, #00c6f9, #4b91ff);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
   }
 
   .about-item {
@@ -437,6 +635,13 @@
     font-weight: 300;
     font-size: 1rem;
     line-height: 25px;
+    margin-bottom: 14px;
+  }
+
+  img {
+    background-color:#2f39542e;
+    border: 1px solid #1c2439a8;
+    border-radius: 10px;
     margin-bottom: 14px;
   }
 
